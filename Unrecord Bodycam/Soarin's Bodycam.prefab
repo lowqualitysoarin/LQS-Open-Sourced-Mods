@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8964069958072471752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8964069958072471753}
+  - component: {fileID: 6328363526113002724}
+  m_Layer: 0
+  m_Name: Soarin's Bodycam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8964069958072471753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8964069958072471752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6328363526113002724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8964069958072471752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3b8824308adc64fb1901cef109132a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mutators:
+  - name: '[<color=aqua>LQS</color>] Soarin''s Bodycam'
+    description: 
+    menuImage: {fileID: 2800000, guid: 448872b3e828f93419950c21a383ff97, type: 3}
+    mutatorPrefab: {fileID: 1260335939939533494, guid: 2090632e47736b3479f02a301e960fe9, type: 3}
+    configuration:
+      labels: []
+      integers: []
+      floats:
+      - id: bodyCamX
+        displayName: Body Cam X Pos
+        orderPriority: 0
+        value: 0
+      - id: bodyCamY
+        displayName: Body Cam Y Pos
+        orderPriority: 1
+        value: 0
+      - id: bodyCamHeight
+        displayName: Body Cam Height
+        orderPriority: 2
+        value: 0
+      - id: walkBobIntensity
+        displayName: Walk Bob Intensity
+        orderPriority: 6
+        value: 0.25
+      - id: runBobIntensity
+        displayName: Run Bob Intensity
+        orderPriority: 7
+        value: 0.75
+      - id: weaponRollClamp
+        displayName: Weapon Roll Clamp
+        orderPriority: 13
+        value: 4.5
+      - id: cameraRollClamp
+        displayName: Camera Roll Clamp
+        orderPriority: 14
+        value: 6.5
+      - id: aimingDeadzoneClamp
+        displayName: Aiming Deadzone Clamp
+        orderPriority: 15
+        value: 15.5
+      - id: walkTiltAmount
+        displayName: Walk Tilt Amount
+        orderPriority: 16
+        value: 1.25
+      ranges:
+      - id: borderFieldOfView
+        displayName: Camera Borders FOV
+        orderPriority: 12
+        value:
+          value: 70
+          min: 70
+          max: 170
+          wholeNumbers: 1
+      strings:
+      - id: toggleBodyCamKey
+        displayName: Toggle Bodycam Key
+        orderPriority: 5
+        value: LeftAlt
+      bools:
+      - id: lockCamToCenter
+        displayName: Lock Camera To Center
+        orderPriority: 3
+        value: 0
+      - id: enableBodyCamOverlay
+        displayName: Bodycam Overlay
+        orderPriority: 4
+        value: 1
+      - id: disableTilting
+        displayName: Disable Tilting
+        orderPriority: 8
+        value: 0
+      - id: disableGunTuck
+        displayName: Disable Gun Tuck
+        orderPriority: 9
+        value: 0
+      - id: zoomWithAnyGun
+        displayName: Zoom with any weapons
+        orderPriority: 10
+        value: 0
+      dropdowns: []
