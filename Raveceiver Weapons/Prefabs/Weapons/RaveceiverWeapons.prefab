@@ -1,0 +1,414 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1974425149149318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4390912376968042}
+  - component: {fileID: 114055882956725170}
+  - component: {fileID: -5441117998643663580}
+  m_Layer: 0
+  m_Name: RaveceiverWeapons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4390912376968042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974425149149318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114055882956725170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974425149149318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab85e76e7e8dd0c428ae7d8d8054e81b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponEntries:
+  - name: '[RC] Alchemy Arms Spectre'
+    prefab: {fileID: 5855742674034833471, guid: dc6b1e9dc754c6f42b8e53b75407fca3, type: 3}
+    slot: 1
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Colt M1911'
+    prefab: {fileID: 1813134178419619990, guid: 696833c16d2cbb244848e4a88b3312eb, type: 3}
+    slot: 1
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Beretta M9'
+    prefab: {fileID: 8369547602665281924, guid: 2ed856174c7d1244ea3d1dd0b4ce1c39, type: 3}
+    slot: 1
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Glock 17'
+    prefab: {fileID: 6528531408345628161, guid: 91cebeae6b05d294eb045b3f421f0d2e, type: 3}
+    slot: 1
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Glock 17 (Aftermarket Firemode Selector)'
+    prefab: {fileID: 6156930665047208576, guid: 8c35930857b9af845810970cbb414178, type: 3}
+    slot: 1
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] SIG Sauer P226'
+    prefab: {fileID: 4843026397793906205, guid: 752ccbd7a9f029648bc947ab50b1fa45, type: 3}
+    slot: 1
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Desert Eagle'
+    prefab: {fileID: 8083300463602319400, guid: 1cc8f3985e45a944e8474c0a5e904227, type: 3}
+    slot: 1
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Colt Python'
+    prefab: {fileID: 5360603138405178423, guid: 22061c5bf3ba3224fa9311cd0d55d579, type: 3}
+    slot: 1
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Smith And Wesson Model 10'
+    prefab: {fileID: 7024101662403889130, guid: c879f38b1d46b1b4a8d5eb72b7206a86, type: 3}
+    slot: 1
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Colt Detective Special'
+    prefab: {fileID: 8507672791082679172, guid: 16ba8a68660749342a5a93826dfafc1b, type: 3}
+    slot: 1
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Hi-Point C-9'
+    prefab: {fileID: 527858967346140, guid: 03e88353096dbec4dbf786ff9481f525, type: 3}
+    slot: 1
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Colt Single Action Army'
+    prefab: {fileID: 3862325146486355315, guid: 3dde90941093d3e40981ff243dbd2fbc, type: 3}
+    slot: 1
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Smith And Wesson .40 Compact'
+    prefab: {fileID: 1381062829933886033, guid: 6c6b00d5c1c320c4abec1bd89628cc8e, type: 3}
+    slot: 1
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Smith And Wesson Model 500'
+    prefab: {fileID: 8775710247442112411, guid: 72da53e8592419d4394cac8ba1bd3d78, type: 3}
+    slot: 1
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Colt M16A2'
+    prefab: {fileID: 5088165325215522334, guid: f2e6309e21b0880419578dcaf9595396, type: 3}
+    slot: 0
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Ruger 10/22'
+    prefab: {fileID: 3266668482895380414, guid: 9bb41de7eae1c3f469372b0c088a84a3, type: 3}
+    slot: 0
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] AK-47'
+    prefab: {fileID: 5894971075051417599, guid: 8a1ae27dfe04c8f47aa86d9aac9f71c5, type: 3}
+    slot: 0
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Heckler And Koch G36C'
+    prefab: {fileID: 436468805762205701, guid: 2d8643edc2648ee498a8bf3c311782a5, type: 3}
+    slot: 0
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Accuracy International AWM'
+    prefab: {fileID: 8663330048815423101, guid: 4138a2236318acf4dbaf63cc151fb835, type: 3}
+    slot: 0
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Steyr AUG A1'
+    prefab: {fileID: 864535245929082470, guid: ef1c3937eeb1df14da1864ec2f03fbe8, type: 3}
+    slot: 0
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Heckler And Koch MP5A5'
+    prefab: {fileID: 5764469683721750812, guid: f964bb692f007764f844aec194e77597, type: 3}
+    slot: 0
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] FN P90'
+    prefab: {fileID: 469528907697487401, guid: b3efe010082033c43b92545d632989b6, type: 3}
+    slot: 0
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+  - name: '[RC] Heckler And Koch 416'
+    prefab: {fileID: 2610477628323029385, guid: 9f2baead6ccf3ce49872b4b2442eef86, type: 3}
+    slot: 0
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+--- !u!114 &-5441117998643663580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974425149149318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3b8824308adc64fb1901cef109132a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mutators:
+  - name: '[<color=aqua>LQS</color>] Raveceiver Configuration/Base'
+    description: Base and configuration mutator. Needed if you want to pick live
+      bullets back up.
+    menuImage: {fileID: 2800000, guid: 08f7bdb0a10045b42a0824524b4b653d, type: 3}
+    mutatorPrefab: {fileID: 64065023509231635, guid: 665753fb73f367d4b8878cfd6ad34264, type: 3}
+    configuration:
+      labels:
+      - id: 
+        displayName: -----------------------------------------------
+        orderPriority: 6
+      - id: 
+        displayName: -----------------------------------------------
+        orderPriority: 11
+      - id: 
+        displayName: -----------------------------------------------
+        orderPriority: 16
+      - id: 
+        displayName: -----------------------------------------------
+        orderPriority: 20
+      - id: 
+        displayName: -----------------------------------------------
+        orderPriority: 23
+      - id: 
+        displayName: Check Unity's KeyCode API
+        orderPriority: 24
+      - id: 
+        displayName: To See Available Binds.
+        orderPriority: 25
+      - id: 
+        displayName: -----------------------------------------------
+        orderPriority: 26
+      - id: 
+        displayName: -----------------------------------------------
+        orderPriority: 29
+      - id: 
+        displayName: -----------------------------------------------
+        orderPriority: 31
+      integers: []
+      floats: []
+      ranges:
+      - id: dropMagChance
+        displayName: Drop Chance
+        orderPriority: 28
+        value:
+          value: 40
+          min: 0
+          max: 100
+          wholeNumbers: 1
+      strings:
+      - id: holsterKey
+        displayName: Holster Key
+        orderPriority: 7
+        value: '`'
+      - id: toggleAimKey
+        displayName: Toggle Aim Key
+        orderPriority: 8
+        value: Q
+      - id: pickupKey
+        displayName: Pickup Key
+        orderPriority: 9
+        value: G
+      - id: holsterLightKey
+        displayName: Flashlight Key
+        orderPriority: 10
+        value: L
+      - id: carrierOutKey
+        displayName: Mag Out/Cylinder Open Key
+        orderPriority: 12
+        value: E
+      - id: carrierInInsertBulletKey
+        displayName: Mag In/Insert Bullet Key
+        orderPriority: 13
+        value: X
+      - id: removeBulletRackCloseKey
+        displayName: Rack/Cylinder Close/Unload Bullet Key
+        orderPriority: 14
+        value: R
+      - id: slideLockTapKey
+        displayName: Slide Lock/Slide Tap Key
+        orderPriority: 15
+        value: T
+      - id: pullHammerKey
+        displayName: Pull Hammer Key
+        orderPriority: 16
+        value: F
+      - id: safetyFiremodeEjectKey
+        displayName: Safety/Firemode/Eject Key
+        orderPriority: 18
+        value: B
+      - id: altFiremodeKey
+        displayName: Alt Firemode Key
+        orderPriority: 19
+        value: C
+      - id: cylinderSpinLeftKey
+        displayName: Cylinder Spin Left Key
+        orderPriority: 22
+        value: J
+      - id: cylinderSpinRightKey
+        displayName: Cylinder Spin Right Key
+        orderPriority: 23
+        value: K
+      - id: customisationKey
+        displayName: Customisation Key
+        orderPriority: 33
+        value: I
+      - id: freeManipulateKey
+        displayName: Unlock Gun Key
+        orderPriority: 34
+        value: P
+      bools:
+      - id: randomisedConditions
+        displayName: Randomise Conditions
+        orderPriority: 0
+        value: 1
+      - id: enableJamming
+        displayName: Weapon Jams
+        orderPriority: 1
+        value: 1
+      - id: enableAccidentalDischarges
+        displayName: Accidental Discharges
+        orderPriority: 2
+        value: 1
+      - id: allowBlinking
+        displayName: Allow Blinking
+        orderPriority: 3
+        value: 1
+      - id: allowAimShake
+        displayName: Aim Shake
+        orderPriority: 4
+        value: 1
+      - id: enablePauseInfo
+        displayName: Weapon Pause Info
+        orderPriority: 5
+        value: 1
+      - id: botsDropMags
+        displayName: Bots Drop Mags
+        orderPriority: 27
+        value: 1
+      - id: lockGunToCenter
+        displayName: Lock Gun To Center
+        orderPriority: 30
+        value: 0
+      - id: customisationSystem
+        displayName: Customisation System
+        orderPriority: 32
+        value: 1
+      dropdowns: []

@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1974425149149318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4390912376968042}
+  - component: {fileID: 114055882956725170}
+  - component: {fileID: -5441117998643663580}
+  m_Layer: 0
+  m_Name: RaveceiverWeaponTesting
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4390912376968042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974425149149318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114055882956725170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974425149149318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab85e76e7e8dd0c428ae7d8d8054e81b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponEntries:
+  - name: '[RC] Weapon Test'
+    prefab: {fileID: 2610477628323029385, guid: 9f2baead6ccf3ce49872b4b2442eef86, type: 3}
+    slot: 0
+    usableByAi: 0
+    usableByAiAllowOverride: 0
+    type: 0
+    sortPriority: -1000
+    tags:
+    - Raveceiver
+--- !u!114 &-5441117998643663580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974425149149318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3b8824308adc64fb1901cef109132a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mutators:
+  - name: '[<color=aqua>LQS</color>] Raveceiver Configuration/Base'
+    description: Base and configuration mutator. Needed if you want to pick live
+      bullets back up.
+    menuImage: {fileID: 2800000, guid: 08f7bdb0a10045b42a0824524b4b653d, type: 3}
+    mutatorPrefab: {fileID: 64065023509231635, guid: 665753fb73f367d4b8878cfd6ad34264, type: 3}
+    configuration:
+      labels:
+      - id: 
+        displayName: -----------------------------------------------
+        orderPriority: 6
+      - id: 
+        displayName: -----------------------------------------------
+        orderPriority: 11
+      - id: 
+        displayName: -----------------------------------------------
+        orderPriority: 16
+      - id: 
+        displayName: -----------------------------------------------
+        orderPriority: 20
+      - id: 
+        displayName: -----------------------------------------------
+        orderPriority: 23
+      - id: 
+        displayName: Check Unity's KeyCode API
+        orderPriority: 24
+      - id: 
+        displayName: To See Available Binds.
+        orderPriority: 25
+      - id: 
+        displayName: -----------------------------------------------
+        orderPriority: 26
+      - id: 
+        displayName: -----------------------------------------------
+        orderPriority: 29
+      - id: 
+        displayName: -----------------------------------------------
+        orderPriority: 31
+      integers: []
+      floats: []
+      ranges:
+      - id: dropMagChance
+        displayName: Drop Chance
+        orderPriority: 28
+        value:
+          value: 40
+          min: 0
+          max: 100
+          wholeNumbers: 1
+      strings:
+      - id: holsterKey
+        displayName: Holster Key
+        orderPriority: 7
+        value: '`'
+      - id: toggleAimKey
+        displayName: Toggle Aim Key
+        orderPriority: 8
+        value: Q
+      - id: pickupKey
+        displayName: Pickup Key
+        orderPriority: 9
+        value: G
+      - id: holsterLightKey
+        displayName: Flashlight Key
+        orderPriority: 10
+        value: L
+      - id: carrierOutKey
+        displayName: Mag Out/Cylinder Open Key
+        orderPriority: 12
+        value: E
+      - id: carrierInInsertBulletKey
+        displayName: Mag In/Insert Bullet Key
+        orderPriority: 13
+        value: X
+      - id: removeBulletRackCloseKey
+        displayName: Rack/Cylinder Close/Unload Bullet Key
+        orderPriority: 14
+        value: R
+      - id: slideLockTapKey
+        displayName: Slide Lock/Slide Tap Key
+        orderPriority: 15
+        value: T
+      - id: pullHammerKey
+        displayName: Pull Hammer Key
+        orderPriority: 16
+        value: F
+      - id: safetyFiremodeEjectKey
+        displayName: Safety/Firemode/Eject Key
+        orderPriority: 18
+        value: B
+      - id: altFiremodeKey
+        displayName: Alt Firemode Key
+        orderPriority: 19
+        value: C
+      - id: cylinderSpinLeftKey
+        displayName: Cylinder Spin Left Key
+        orderPriority: 22
+        value: J
+      - id: cylinderSpinRightKey
+        displayName: Cylinder Spin Right Key
+        orderPriority: 23
+        value: K
+      - id: customisationKey
+        displayName: Customisation Key
+        orderPriority: 33
+        value: I
+      - id: freeManipulateKey
+        displayName: Unlock Gun Key
+        orderPriority: 34
+        value: P
+      bools:
+      - id: randomisedConditions
+        displayName: Randomise Conditions
+        orderPriority: 0
+        value: 1
+      - id: enableJamming
+        displayName: Weapon Jams
+        orderPriority: 1
+        value: 1
+      - id: enableAccidentalDischarges
+        displayName: Accidental Discharges
+        orderPriority: 2
+        value: 1
+      - id: allowBlinking
+        displayName: Allow Blinking
+        orderPriority: 3
+        value: 1
+      - id: allowAimShake
+        displayName: Aim Shake
+        orderPriority: 4
+        value: 1
+      - id: enablePauseInfo
+        displayName: Weapon Pause Info
+        orderPriority: 5
+        value: 1
+      - id: botsDropMags
+        displayName: Bots Drop Mags
+        orderPriority: 27
+        value: 1
+      - id: lockGunToCenter
+        displayName: Lock Gun To Center
+        orderPriority: 30
+        value: 0
+      - id: customisationSystem
+        displayName: Customisation System
+        orderPriority: 32
+        value: 1
+      dropdowns: []
