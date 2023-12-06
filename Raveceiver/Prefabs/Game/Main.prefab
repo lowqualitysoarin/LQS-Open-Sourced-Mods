@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6442627514722552648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6442627514722552649}
+  - component: {fileID: 6442627514722552655}
+  - component: {fileID: 6442627514722552654}
+  m_Layer: 0
+  m_Name: Main
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6442627514722552649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6442627514722552648}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6442627514722552655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6442627514722552648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8ca71ca01d2fb4098cb42abc5eceb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 2213920135882650261, guid: a047bca469d52144ba2d10aa7a218e8b, type: 3}
+  behaviour: 
+  targets:
+  - name: hudScript
+    value: {fileID: 0}
+  - name: sentry
+    value: {fileID: 4636639864968632726, guid: 36ae6f34b4fdbf4468d126da8eae77bd, type: 3}
+  - name: mobileSentry
+    value: {fileID: 5992664212457816024, guid: 57659c85f0f899e44aee20f962ee8871, type: 3}
+  - name: drone
+    value: {fileID: 5937225107043296813, guid: b01e5a329ce14f2449deea9f1ad5d84e, type: 3}
+  - name: gunDrone
+    value: {fileID: 2590005961288208816, guid: 731f86019412bdc46bae20eb55953303, type: 3}
+  - name: cassetteTape
+    value: {fileID: 5405900051372748937, guid: af5e4f0e4157f2c4c9147779c7342fe9, type: 3}
+--- !u!114 &6442627514722552654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6442627514722552648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53a71c6a7b01e1449208c55b04f1aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bools: []
+  ints: []
+  floats:
+  - id: space
+    value: 24
+  - id: droneSpawnChance
+    value: 20
+  - id: gunDroneSpawnChance
+    value: 5
+  - id: sentrySpawnChance
+    value: 30
+  - id: mobileSentrySpawnChance
+    value: 7
+  - id: cassetteSpawnChance
+    value: 50
+  strings: []
+  vectors: []
+  rotations: []
+  colors: []
+  gradients: []
+  textures: []
+  sprites: []
+  audioClips: []
+  materials: []
+  animationCurves: []
+  gameObjects:
+  - id: level0
+    value: {fileID: 2131712440496702247, guid: 81f4d09cbd450a4458f336730643f896, type: 3}
+  - id: level1
+    value: {fileID: 6305780491370799228, guid: 8905923ef0481e44aa0c8d7b0efdd11a, type: 3}
+  - id: level2
+    value: {fileID: 3215250825841585255, guid: 9c6b6c8cb0392254a92da44e369122cd, type: 3}
+  - id: level3
+    value: {fileID: 3067722099050535389, guid: ddb9bd6c438c6b145a523099983202e2, type: 3}
+  - id: level4
+    value: {fileID: 1908491640199016144, guid: 92b64627243f7ed40b589f33f155e741, type: 3}
+  - id: level5
+    value: {fileID: 5190228745369049813, guid: f02529be71a27e54e9f0813f7cc91a35, type: 3}
+  - id: level6
+    value: {fileID: 4347489993362740758, guid: 88719a686755ceb4faf068c35073f5de, type: 3}
+  - id: level7
+    value: {fileID: 4619175803714226595, guid: 57644ea6ed7d1854bbc1716d684d0fd0, type: 3}
+  - id: level8
+    value: {fileID: 6464308665395121272, guid: f9935fea0af310942a0e7c19e389665f, type: 3}
+  - id: level9
+    value: {fileID: 2386810801239642787, guid: d7580db63073bd04d8295e22f89925c4, type: 3}
+  - id: deadEndsL0
+    value: {fileID: 398500820260560549, guid: dc6865c31d07c5a4e920087e36096565, type: 3}
+  - id: deadEndsL1
+    value: {fileID: 8706842810446196935, guid: 9f81db955d1785d4196e05451197e391, type: 3}
+  - id: deadEndsL2
+    value: {fileID: 902197246310225923, guid: a1a6fd67e42087647a7544321c696374, type: 3}
+  - id: deadEndsL3
+    value: {fileID: 5877239045159244150, guid: 59dd7593857e1c14c8bdc805ac3b5060, type: 3}
+  - id: deadEndsR0
+    value: {fileID: 5103714692019806113, guid: e9c2f7472b6b8674da2f4a4d2e5726ee, type: 3}
+  - id: deadEndsR1
+    value: {fileID: 8785860094869203964, guid: a89a41e5f4899fc49baa7af625cb785c, type: 3}
+  - id: deadEndsR2
+    value: {fileID: 1914573657623873445, guid: 1ca731bcd72f84d4390c2648012585a3, type: 3}
+  - id: deadEndsR3
+    value: {fileID: 5057788149927043516, guid: 9c5d66e297dd4ef45bcac76067cc16fa, type: 3}
+  skins: []
+  weaponEntries: []
