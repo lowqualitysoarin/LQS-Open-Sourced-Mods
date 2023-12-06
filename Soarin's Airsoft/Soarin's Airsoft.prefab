@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6022710279036242055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4530889311163082112}
+  - component: {fileID: 3963417487556704815}
+  m_Layer: 0
+  m_Name: Soarin's Airsoft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4530889311163082112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6022710279036242055}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3963417487556704815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6022710279036242055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3b8824308adc64fb1901cef109132a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mutators:
+  - name: '[<color=aqua>LQS</color>] Soarin''s Airsoft'
+    description: 
+    menuImage: {fileID: 2800000, guid: bb838d7fa357bf64fa97b65d4028e02c, type: 3}
+    mutatorPrefab: {fileID: 8487390259438513769, guid: 3e24b815bec844147b870234c43a81a5, type: 3}
+    configuration:
+      labels:
+      - id: 
+        displayName: ------------------------------------------
+        orderPriority: 0
+      - id: 
+        displayName: ------------------------------------------
+        orderPriority: 2
+      - id: 
+        displayName: ------------------------------------------
+        orderPriority: 4
+      integers:
+      - id: respawnTime
+        displayName: Respawn Time
+        orderPriority: 5
+        value: 10
+      floats: []
+      ranges: []
+      strings:
+      - id: quickTravelKey
+        displayName: Quick Travel Key
+        orderPriority: 3
+        value: LeftBracket
+      bools: []
+      dropdowns:
+      - id: gamemode
+        displayName: Gamemode
+        orderPriority: 1
+        value:
+          index: 2
+          labels:
+          - Standard
+          - <color=orange>Gun Game</color>
+          - <color=purple>Raid</color>
+          - <color=blue>Capture The Flag</color>
+  - name: Teleport To Freecam
+    description: 
+    menuImage: {fileID: 2800000, guid: 12f5113bfe027184cbd2abe70864e8e5, type: 3}
+    mutatorPrefab: {fileID: 4350786913889945081, guid: 511cd0fe759b0d041aaca91e0bf4f2b9, type: 3}
+    configuration:
+      labels: []
+      integers: []
+      floats: []
+      ranges: []
+      strings:
+      - id: tpToggleKey
+        displayName: Teleport Toggle Key
+        orderPriority: 0
+        value: P
+      bools: []
+      dropdowns: []
