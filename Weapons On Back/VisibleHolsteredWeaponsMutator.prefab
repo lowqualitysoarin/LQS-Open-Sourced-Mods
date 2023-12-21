@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &477550436502036731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4417065091474871464}
+  - component: {fileID: -341415471876030008}
+  m_Layer: 0
+  m_Name: VisibleHolsteredWeaponsMutator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4417065091474871464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477550436502036731}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-341415471876030008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477550436502036731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3b8824308adc64fb1901cef109132a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mutators:
+  - name: '[<color=aqua>LQS</color>] VHW'
+    description: Visible holstered weapons
+    menuImage: {fileID: 2800000, guid: 62530c7974acd7c4eac01fa133d3576f, type: 3}
+    mutatorPrefab: {fileID: 381140059065515083, guid: b33dd1b5ed8f0ef42830d0bb669a887f, type: 3}
+    configuration:
+      labels: []
+      integers: []
+      floats: []
+      ranges: []
+      strings:
+      - id: weaponBlacklist
+        displayName: Blacklisted Weapons
+        orderPriority: 0
+        value: Example,Gun1,Gun2,Gun3
+      bools:
+      - id: visualizePrimaryWeapons
+        displayName: Visualize Primary
+        orderPriority: 2
+        value: 1
+      - id: visualizeSecondaryWeapons
+        displayName: Visualize Secondary
+        orderPriority: 3
+        value: 1
+      - id: visualizeHeavyWeapons
+        displayName: Visualize Heavy
+        orderPriority: 4
+        value: 1
+      dropdowns:
+      - id: canBeShowedOn
+        displayName: 'Can Be Showed On:'
+        orderPriority: 1
+        value:
+          index: 0
+          labels:
+          - Both
+          - <color=blue>Eagles Only</color>
+          - <color=red>Ravens Only</color>
+          - <color=aqua>Player Only</color>
